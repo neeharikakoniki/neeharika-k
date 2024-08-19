@@ -7,8 +7,17 @@ const items = [
     id: 1,
     title: "Software Engineer , Wiley Mthree",
     img: "./ms.jpg",
-    desc: "Led financial risk management software development at Morgan Stanley, enhancing efficiency with enterprise SDLC solutions. Developed compliance algorithms in C++ and Python, reducing non-compliance incidents by 3%, and increased team productivity by 30% through agile practices.",
-  },
+    desc: (
+      <ul>
+        <li>Spearheaded full lifecycle software development projects for financial risk management at Morgan Stanley</li>
+        <li>Implemented adoption of enterprise SDLC solutions for 2+ applications and 100+ users, ensuring organizational efficiency</li>
+        <li>Built robust compliance algorithms using C++ and Python, ensuring adherence to financial regulatory standards; reduced non
+        compliance incidents by 3% within first quarter</li>
+        
+      </ul>
+      
+    )
+    },
   {
     id: 2,
     title: "C++ Developer Intern, Wiley Mthree",
