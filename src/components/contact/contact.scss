@@ -53,9 +53,12 @@
 
     .phoneSvg {
       stroke: orange;
-      position: absolute;
-      margin: auto;
-      z-index: -1;
+    position: absolute;
+    top: -205px; 
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
     }
 
     form {

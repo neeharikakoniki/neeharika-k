@@ -5,15 +5,14 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "Software Engineer , Wiley Mthree",
+    title: "Software Engineer , Morgan Stanley",
     img: "./ms.jpg",
     desc: (
       <ul>
         <li>Spearheaded full lifecycle software development projects for financial risk management at Morgan Stanley</li>
         <li>Implemented adoption of enterprise SDLC solutions for 2+ applications and 100+ users, ensuring organizational efficiency</li>
         <li>Built robust compliance algorithms using C++ and Python, ensuring adherence to financial regulatory standards; reduced non
-        compliance incidents by 3% within first quarter</li>
-        
+        compliance incidents by 3% within first quarter</li> 
       </ul>
       
     )
@@ -22,7 +21,14 @@ const items = [
     id: 2,
     title: "C++ Developer Intern, Wiley Mthree",
     img: "./in1.png",
-    desc: "Optimized Python code to reduce runtime by 10%, which improved overall application performance,resolved over 50 minor bugs.Led a code renovation project, converting from Python to C++, which enhanced adaptability and maintainability.",
+    desc: (
+      <ul>
+        <li>Developed and improved backend software for order placement & real-time growth statistics primarily using C++</li>
+        <li> Achieved good reduction in order processing time and boosted user retention through optimization efforts</li>
+        <li>Achieved commendable improvement in overall performance by profiling hot path code and reducing unnecessary copies</li>
+        </ul>
+      
+    )
   },
   {
     id: 3,

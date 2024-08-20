@@ -13,15 +13,10 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Neeharika Koniki
+          
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/linkedinimage.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/gmailimage.png" alt="" />
-          </a>
+          
         </div>
       </div>
     </div>

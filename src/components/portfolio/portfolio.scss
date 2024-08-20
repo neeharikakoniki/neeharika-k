@@ -38,19 +38,20 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 50px;
+      gap: 30px;
 
       @include mobile {
         flex-direction: column;
       }
 
       .imageContainer {
-        flex: 1;
-        height: 50%;
+        flex: 0 1 40%;
+        max-width: 40%;
+        
 
         @include mobile {
           width: 100%;
-          max-height: 300px;
+          max-height: 200px;
         }
 
         img {
